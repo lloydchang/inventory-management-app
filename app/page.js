@@ -78,3 +78,6 @@ const removeItem = async (item) => {
   }
   await updateInventory()
 }
+
+const handleOpen = () => setOpen(true)
+const handleClose = () => setOpen(false)
