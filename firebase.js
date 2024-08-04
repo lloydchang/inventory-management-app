@@ -7,6 +7,7 @@ const firebaseConfig = {
  storageBucket: "inventory-management-app-7b7fd.appspot.com",
  messagingSenderId: "492036951422",
  appId: "1:492036951422:web:10c4af38992963fec9f72f",
+ measurementId: "G-3DP6PFV29H",
  };
 const app = initializeApp(firebaseConfig);
 const firestore = getFirestore(app);
